@@ -7,7 +7,7 @@
     "setup": "webdriver-manager update",
     "test": "./node_modules/.bin/protractor protractor.conf.js"
   },
-  "author": "Raul Huluban <raulhuluban@gmail.com>",
+  "author": "Raul Huluban, raulhuluban@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "faker": "^3.1.0",
