@@ -10,7 +10,6 @@ describe('TODO MVC', function () {
   const todoMvc = new TodoMvc();
 
   beforeEach(async () => {
-    browser.ignoreSynchronization = true;
     await todoMvc.visit();
   });
 

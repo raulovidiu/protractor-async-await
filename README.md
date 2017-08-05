@@ -17,7 +17,7 @@ npm run setup
 ## Running tests
 
 ```
-npm test
+npm run test
 ```
 
 ___

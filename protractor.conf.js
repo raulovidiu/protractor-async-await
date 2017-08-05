@@ -18,6 +18,7 @@ module.exports.config = {
 
   onPrepare() {
     browser.driver.manage().window().maximize();
+    browser.ignoreSynchronization = true;
 
     jasmine.getEnv().addReporter(new SpecReporter({
       displayFailuresSummary: true,
